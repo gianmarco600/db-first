@@ -1,0 +1,18 @@
+
+RIVENDITORE AUTO USATE
+
+
+auto_id		BIGINT		PRIMARY_KEY	A_I	UNSIGNED
+marca		VARCHAR(50)	NOTNULL
+modello		VARCHAR(150)	NOTNULL
+anno_prod	YEAR		NOTNULL
+anno_imm	YEAR		NOTNULL	
+km_attuali	INT
+prezzo		INT		
+targa		CHAR(7)		UNIQUE
+consumi 	VARCHAR(40)
+cavalli		INT					UNSIGNED
+cilindrata	INT					UNSIGNED
+created_at	TIMESTAMP
+updated_at	TIMESTAMP
+
